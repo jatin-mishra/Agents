@@ -25,6 +25,7 @@ uv.lock
 .env
 .env.*
 !.env.example
+agent-learn/.env
 
 # IDE
 .vscode/
