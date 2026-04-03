@@ -14,8 +14,8 @@ build/
 venv/
 env/
 
-# uv
-uv.lock
+# uv / pyenv
+.python-version
 
 # Jupyter
 .ipynb_checkpoints/
@@ -40,6 +40,14 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Local data / vector stores
+*.sqlite
+*.db
+faiss_index/
+chroma_db/
+*.pkl
+*.bin
 
 # Project folders
 krishna-with-gita/
