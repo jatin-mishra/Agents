@@ -41,6 +41,9 @@ Thumbs.db
 *.log
 logs/
 
+# Data directories
+**/data/
+
 # Local data / vector stores
 *.sqlite
 *.db
